@@ -233,8 +233,8 @@ div.swiper-button-prev {
     display: block;
 }
 
-.sw-red div.swiper-button-next,
-div.swiper-button-prev {
+div.sw-red div.swiper-button-next,
+div.sw-red div.swiper-button-prev {
     color: #ffffff;
     font-weight: 700;
 }
