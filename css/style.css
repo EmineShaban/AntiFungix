@@ -282,3 +282,27 @@ span.swiper-pagination-bullet-active {
     padding: 10px 0;
     margin-bottom: 10px;
 }
+
+/* review */
+
+.review{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+.review-stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review-stars img{
+    width: 80px;
+}
+
+/* .review-text{
+    width: 90%;
+} */
+.review-title, .recomended{
+    margin: 10px 0;
+}
