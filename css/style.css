@@ -50,13 +50,13 @@ header ul{
 }
 header ul li a{
     color: #555;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 22px;
-
+    text-transform: uppercase;
 }
 
 header .cta{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 
@@ -136,10 +136,16 @@ div.swiper-button-prev {
 
 
 .cta-div {
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
+.cta-div2{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
 .hero h1 {
     font-size: 40px;
@@ -405,6 +411,29 @@ textarea{
     border: none;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+/* banner */
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px auto;
+}
+
+.banner img{
+    width: 70%;
+    margin: auto;
+}
+.banner h2{
+    font-size: 45px;
+    text-align: center;
+
+}
+.banner-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
