@@ -14,47 +14,63 @@ for (let index = 0; index < q.length; index++) {
 }
 
 
-// const buttons = document.querySelectorAll('.popupbtn');
-// const popup = document.getElementById('popup');
-// const popupText = document.getElementById('popup-text');
-// const closeBtn = document.querySelector('.close');
-// const commentForm = document.querySelector('form'); 
-// const commentTextarea = document.getElementById('comment'); 
-
-// // Data for each ingredient's popup content
-// const content = { comm: 'Thank you for your feedback!'
-// };
-
-// // Show popup with content for ingredient buttons
-// buttons.forEach(button => {
-//   button.addEventListener('click', () => {
-//       const key = button.getAttribute('data-content');
-//       popupText.innerText = content[key];
-//       popup.style.display = 'flex';
-//   });
-// });
-// // Show popup with content for form submission
-// commentForm.addEventListener('submit', (e) => {
-//   e.preventDefault(); 
-//   popupText.innerText = content['comm'];
-//   popup.style.display = 'flex';
-
-//   commentTextarea.value = '';
-// });
-
-// // Close popup when the close button is clicked
-// closeBtn.addEventListener('click', () => {
-//   popup.style.display = 'none';
-// });
-
-// // Close popup when clicking outside of it
-// window.addEventListener('click', (e) => {
-//   if (e.target === popup) {
-//       popup.style.display = 'none';
-//   }
-// });
 
 
 
+// review popup
+const button = document.getElementsByClassName('submitbtn');
+const popup = document.getElementById('popup');
+const closeBtn = document.querySelector('.close');
 
+button[0].addEventListener('click', (e) => {
+  e.preventDefault()
+  console.log("sss")
+  popup.style.display = 'flex';
+})
+
+
+
+// Close popup when the close button is clicked
+closeBtn.addEventListener('click', () => {
+  popup.style.display = 'none';
+});
+
+// Close popup when clicking outside of it
+window.addEventListener('click', (e) => {
+  if (e.target === popup) {
+    popup.style.display = 'none';
+  }
+});
+
+
+
+// order
+const closeBtn2 = document.getElementsByClassName('close2');
+
+const order = document.getElementsByClassName('order');
+const popupOrder = document.getElementById('popup-order');
+
+console.log(order)
+
+for (let i = 0; i < order.length; i++) {
+  order[i].addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log("order")
+    popupOrder.style.display = 'flex';
+
+  })
+}
+
+ 
+// Close popup when the close button is clicked
+closeBtn2[0].addEventListener('click', () => {
+  popupOrder.style.display = 'none';
+});
+
+// Close popup when clicking outside of it
+window.addEventListener('click', (e) => {
+  if (e.target === popupOrder) {
+    popupOrder.style.display = 'none';
+  }
+});
 
