@@ -132,6 +132,7 @@ div.swiper-button-prev {
     font-size: 18px;
     color: white;
     font-weight: 700;
+    text-align: center;
 }
 
 
@@ -427,8 +428,17 @@ textarea{
 .banner h2{
     font-size: 45px;
     text-align: center;
-
+    color: #c30e2e;
+    font-weight: 500;
 }
+
+.banner h2 span{
+    font-weight: 700;
+
+
+text-shadow: 0 0 3px #ffffff, 0 0 5px #c30e2e;
+}
+
 .banner-div{
     display: flex;
     flex-direction: column;
@@ -437,6 +447,24 @@ textarea{
 }
 
 
+.banner2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40%;
+    margin: auto;
+}
+.banner2 div{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.banner2 h2{
+    font-size: 45px;
+    text-align: center;
+    color: #c30e2e;
+    font-weight: 800;
+}
 /* footer */
 footer{
     background-color: #202020d5;
