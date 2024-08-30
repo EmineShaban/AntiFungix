@@ -364,3 +364,13 @@ span.swiper-pagination-bullet-active {
 textarea{
     margin: 20px auto;
 }
+
+.submitbtn{
+    border-radius: 15px;
+    background-color: rgb(4, 4, 149);
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
