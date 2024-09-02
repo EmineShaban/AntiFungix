@@ -36,7 +36,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#about">about</a></li>
             <li><a href="index.html#symptoms">symptoms</a></li>
-            <li><a href="index.html#how-to-use">How to use</a></li> 
+            <li><a href="index.html#how-to-use">How to use</a></li>
             <li><a href="index.html#faq">FAQ</a></li>
             <li><a href="index.html#reviews">Reviews</a></li>
             <li><a class="cta order" href="">ORDER NOW</a></li>
@@ -368,8 +368,8 @@
             </div>
         </div>
         <img src="./images/fh_generic_05.webp" alt="">
-       
-     
+
+
     </div>
     <div class="reviews container" id="reviews">
         <h2 class="title">
@@ -513,15 +513,14 @@
             <p><b>Share Your Experience</b></p>
             <p> We love hearing from our customers! If you’ve experienced the benefits of Canesten, share your
                 story with us.</p>
-            <form>
+            <form method="post" id="form">
                 <label for="comment"></label>
                 <textarea style="font-style: italic;" id="comment" name="comment"
-                    placeholder="Write your review here..." rows="5" cols="100" required></textarea>
-                    <br><br>
-                <div class="review-btn">
-                    <button class="submitbtn" >Submit</button>
-                </div>
-            </form>
+                    placeholder="Write your review here..." rows="5" cols="100" required ></textarea>
+                <br><br>
+                     <button type="submit" class="submitbtn">Submit</button>
+             </form>
+ 
         </div>
 
         <!-- Popup Modal -->
@@ -583,15 +582,15 @@
         </p>
     </footer>
 
-  <!-- Popup Modal -->
-  <div id="popup-order" class="popup-order">
-    <div class="popup-order-content">
-        <span class="close2">&times;</span>
-        <div  >
-         
-                    <img class="logo-order" src="./images/canesten_logo_rgb-01_v2 copy.webp" alt="">
-                
-            <!-- <div class="green-line">
+    <!-- Popup Modal -->
+    <div id="popup-order" class="popup-order">
+        <div class="popup-order-content">
+            <span class="close2">&times;</span>
+            <div>
+
+                <img class="logo-order" src="./images/canesten_logo_rgb-01_v2 copy.webp" alt="">
+
+                <!-- <div class="green-line">
                 <div class="green-line-div">
                     <p>Premium quality product
                     </p>
@@ -605,101 +604,101 @@
                     </p>
                 </div>
             </div> -->
-            <div class="content">
-                <div class="left-div">
-                    <div class="left">
-                        <form id="order" action="./additional-links/thank-you.php">
-                            <h5>Contact</h5>
-                            <input type="email" placeholder="Email" required>
-                            <input type="text" placeholder="Telephone" required>
-        
-                            <h5>Delivery</h5>
-                            <div class="names">
-                                <input type="text" placeholder="First name" required>
-                                <input type="text" placeholder="Last name" required>
-                            </div>
-        
-                            <input type="text" placeholder="Adress" required>
-                            <input type="text" placeholder="Apartment, etc. (optional)">
-                            <div class="names">
-                                <input type="text" placeholder="Postal code" required>
-                                <input type="text" placeholder="City" required>
-                            </div>
-        
-                            <h5>Payment</h5>
-        
-                            <select name="delivery" id="delivery">
-                                <option value="Cash">Cash on delivery</option>
-                            </select>
-        
-                            <button class="cta-form">Order Now</button>
-                            <p class="rights">All rights reserved</p>
-        
-                        </form>
-                    </div>
-                </div>
-                <div class="right-div">
-                    <div class="right">
-                        <div class="matcha40">
-                            <div class="cart">
-                                <div>
-                                    <img class="product" src="./images/Image 1.webp" alt="">
-                                    <h3>Single pack
-                                    </h3>
+                <div class="content">
+                    <div class="left-div">
+                        <div class="left">
+                            <form id="order" action="./additional-links/thank-you.php">
+                                <h5>Contact</h5>
+                                <input type="email" placeholder="Email" required>
+                                <input type="text" placeholder="Telephone" required>
+
+                                <h5>Delivery</h5>
+                                <div class="names">
+                                    <input type="text" placeholder="First name" required>
+                                    <input type="text" placeholder="Last name" required>
                                 </div>
-                                <p>EUR 39,95</p>
-                            </div>
-                            <div class="cart">
-                                <p>Subtotal</p>
-                                <p>EUR 39,95</p>
-        
-                            </div>
-                            <div class="cart">
-                                <p>Shipping</p>
-                                <p>FREE</p>
-        
-                            </div>
-                            <hr>
-                            <div class="cart">
-                                <p><b>Total</b></p>
-                                <p><b>EUR 39,95</b></p>
-                            </div>
+
+                                <input type="text" placeholder="Adress" required>
+                                <input type="text" placeholder="Apartment, etc. (optional)">
+                                <div class="names">
+                                    <input type="text" placeholder="Postal code" required>
+                                    <input type="text" placeholder="City" required>
+                                </div>
+
+                                <h5>Payment</h5>
+
+                                <select name="delivery" id="delivery">
+                                    <option value="Cash">Cash on delivery</option>
+                                </select>
+
+                                <button class="cta-form">Order Now</button>
+                                <p class="rights">All rights reserved</p>
+
+                            </form>
                         </div>
-                 
+                    </div>
+                    <div class="right-div">
+                        <div class="right">
+                            <div class="matcha40">
+                                <div class="cart">
+                                    <div>
+                                        <img class="product" src="./images/Image 1.webp" alt="">
+                                        <p><b>Single pack</b>
+                                        </p>
+                                    </div>
+                                    <p>EUR 39,95</p>
+                                </div>
+                                <div class="cart">
+                                    <p>Subtotal</p>
+                                    <p>EUR 39,95</p>
+
+                                </div>
+                                <div class="cart">
+                                    <p>Shipping</p>
+                                    <p>FREE</p>
+
+                                </div>
+                                <hr>
+                                <div class="cart">
+                                    <p><b>Total</b></p>
+                                    <p><b>EUR 39,95</b></p>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
+
+
+                <div class="bottom-line">
+                    <div class="green-line-div">
+                        <img src="./images/icons 120x120-02.webp" alt="">
+                        <p><span><b>Freeshipping Worldwide</b></span>
+                            <br>
+                            On All Orders
+                        </p>
+                    </div>
+                    <div class="green-line-div">
+                        <img src="./images/icons 120x120-03.webp" alt="">
+                        <p><span><b>Easy and Free Returns</b>
+                            </span>
+                            <br>
+                            30-Days Free Return Policy
+                        </p>
+                    </div>
+                    <div class="green-line-div">
+                        <img src="./images/icons 120x120-01.webp" alt="">
+                        <p><span><b>Money-Back Guarantee</b>
+                            </span>
+                            <br>
+                            100% Money-Back Guarantee
+                        </p>
+                    </div>
+                </div>
+
             </div>
-        
-            
-            <div class="bottom-line">
-                <div class="green-line-div">
-                    <img src="./images/icons 120x120-02.webp" alt="">
-                    <p><span><b>Freeshipping Worldwide</b></span>
-                        <br>
-                        On All Orders
-                    </p>
-                </div>
-                <div class="green-line-div">
-                    <img src="./images/icons 120x120-03.webp" alt="">
-                    <p><span><b>Easy and Free Returns</b>
-                        </span>
-                        <br>
-                        30-Days Free Return Policy
-                    </p>
-                </div>
-                <div class="green-line-div">
-                    <img src="./images/icons 120x120-01.webp" alt="">
-                    <p><span><b>Money-Back Guarantee</b>
-                        </span>
-                        <br>
-                        100% Money-Back Guarantee
-                    </p>
-                </div>
-            </div>
-         
         </div>
     </div>
-</div>
 
 
     <!-- Swiper JS -->

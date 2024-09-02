@@ -13,23 +13,31 @@
         div.image-logo-1 {
             display: flex;
             justify-content: center;
+            width: 10%;
+            margin: auto;
         }
-        
+
+        img {
+            width: 100%;
+        }
+
         div.image-product {
             margin: 5vh;
             width: 50%;
         }
-        
+
         div.image-product img {
-            width: 80%;
+            width: 50%;
+            margin: auto;
+            display: block;
         }
-        
+
         div.div-wrapper {
             margin: 5vh;
             display: flex;
             justify-content: right;
         }
-        
+
         div.header-name {
             margin-top: 11vh;
             font-size: 2vh;
@@ -40,13 +48,13 @@
 
 <body>
     <div class="image-logo-1">
-        <img src="../images/logo.jpg" class="logo-1" />
+        <img src="../images/canesten_logo_rgb-01_v2 copy.webp" class="logo-1" />
     </div>
     <hr />
     <div class="div-wrapper">
 
         <div class="image-product">
-            <img src="../images/section3.jpg" class="product" />
+            <img src="../images/Image 1.webp" class="product" />
         </div>
 
         <div class="header-name">
@@ -54,7 +62,8 @@
             <p class="name-product-text">Thank you for your order, it has been successfully received!</p>
             <p class="name-product-text-bold">Order details: </p>
             <p class="name-product-text"><i class="far fa-check-circle"></i> Order Number: #524956</p>
-            <p class="name-product-text"><i class="far fa-check-circle"></i> Selected payment method: Cash on delivery</p>
+            <p class="name-product-text"><i class="far fa-check-circle"></i> Selected payment method: Cash on delivery
+            </p>
             <p class="name-product-text"><i class="far fa-check-circle"></i> Delivery ETA 3 to 5 business days</p>
         </div>
     </div>

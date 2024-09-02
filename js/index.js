@@ -21,12 +21,16 @@ for (let index = 0; index < q.length; index++) {
 const button = document.getElementsByClassName('submitbtn');
 const popup = document.getElementById('popup');
 const closeBtn = document.querySelector('.close');
-
-button[0].addEventListener('click', (e) => {
+const form = document.getElementById('form');
+form.addEventListener('submit', (e) => {
   e.preventDefault()
-  console.log("sss")
   popup.style.display = 'flex';
+  form.reset()
+
 })
+// button[0].addEventListener('click', (e) => {
+
+// })
 
 
 

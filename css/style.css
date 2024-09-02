@@ -51,7 +51,7 @@ header ul{
 header ul li a{
     color: #555;
     margin-left: 30px;
-    font-size: 22px;
+    font-size: 17px;
     text-transform: uppercase;
 }
 
@@ -523,7 +523,7 @@ footer{
 .popup-order-content {
     background-color: #fff;
     margin: 0 auto;
-    padding: 70px;
+    padding: 50px;
     border-radius: 5px; 
     position: relative;
     width: 60%;
@@ -533,7 +533,7 @@ footer{
 
 
 .green-line-div img {
-    width: 18%;
+    width: 12%;
 }
 
 
@@ -601,13 +601,14 @@ select{
 .right-div {
     background-color: rgb(233, 233, 235);
     border-left: 1px solid #cccccc;
-    padding-left: 20px;
+    
 }
 
 
 .right {
-    width: 60%; 
-    padding-top: 25px;
+    /* width: 90%;  */
+    padding: 25px;
+    
 }
 
 
@@ -622,4 +623,12 @@ select{
 .cart img {
     width: 120px;
     background-blend-mode: multiply;
+}
+
+.cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
