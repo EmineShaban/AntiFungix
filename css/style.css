@@ -537,7 +537,7 @@ footer {
 .popup-order {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 15;
     left: 0;
     top: 0;
     width: 100%;
@@ -683,7 +683,6 @@ select {
 
     .container {
         width: 80%;
-        margin: auto;
     }
 
 }
@@ -697,7 +696,6 @@ select {
 
     .container {
         width: 90%;
-        margin: auto;
     }
 
     .popup-order-content {
@@ -896,5 +894,128 @@ select {
 
     .logo {
         width: 225px;
+    }
+
+    .sw-red {
+        width: 80%;
+    }
+
+    .banner img {
+        display: none;
+    }
+
+    .banner {
+        display: block;
+    }
+
+    .banner h2 {
+        font-size: 35px;
+    }
+
+    .banner .cta-div {
+        margin: 0;
+    }
+
+    .banner2 .cta-div {
+        margin: 0;
+    }
+
+    .banner2 h2 {
+        font-size: 26px;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        --swiper-navigation-size: 18px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    p {
+        line-height: 1.3;
+        font-size: 13px;
+    }
+
+    .sw-red img {
+        width: 90px;
+
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .footer-div {
+        display: block;
+    }
+
+    .links {
+        margin-bottom: 15px;
+    }
+
+    .disclaimer {
+        width: 92%;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .names {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+
+    select {
+        width: 50%;
+    }
+
+    hr {
+        margin: 10px 0;
+    }
+
+    .cta-form {
+        background-color: #c30e2e;
+        padding: 10px 40px;
+        margin: 10px 0;
+    }
+
+    .cart {
+        margin-bottom: 5px;
+    }
+
+    .rights {
+        margin-top: 0;
+        padding: 5px 0;
+    }
+
+    .green-line-div p:last-child {
+        display: none;
+    }
+
+    .green-line-div img {
+        width: 23%;
+    }
+
+    .popup-order-content {
+        padding: 35px 20px;
+    }
+    .left input {
+        margin: 3px 0;
+
+    }
+    .right {
+        padding: 10px;
     }
 }
