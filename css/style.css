@@ -523,10 +523,10 @@ footer{
 .popup-order-content {
     background-color: #fff;
     margin: 0 auto;
-    padding: 45px;
+    padding: 70px;
     border-radius: 5px; 
     position: relative;
-    width: 70%;
+    width: 60%;
     font-size: 24px;
     display: block;
 }
@@ -559,5 +559,67 @@ footer{
 
 .left input{
     display: block;
-    margin: 7px 0;
+    margin: 8px 0;
+    height: 30px;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid #7f7f7f66;
+    background-color: transparent;
+    width: 75%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+select{
+    width: 30%;
+    margin-top: 15px;
+}
+
+.cta-form{ 
+        background-color: #c30e2e;
+        padding: 10px 40px;
+        margin: 25px 0;
+        font-size: 18px;
+        color: white;
+        font-weight: 700;
+        text-align: center; 
+        border: none;
+        display: block;
+
+}
+
+
+.rights {
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+    padding: 10px 0;
+    color: #787878;
+    font-style: italic;
+}
+
+
+.right-div {
+    background-color: rgb(233, 233, 235);
+    border-left: 1px solid #cccccc;
+    padding-left: 20px;
+}
+
+
+.right {
+    width: 60%; 
+    padding-top: 25px;
+}
+
+
+.cart div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+.cart img {
+    width: 120px;
+    background-blend-mode: multiply;
 }
